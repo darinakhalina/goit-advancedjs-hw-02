@@ -48,4 +48,7 @@ elements.form.addEventListener('submit', event => {
         });
       });
   }
+  elements.delayInput.value = '';
+  elements.stepInput.value = '';
+  elements.amountInput.value = '';
 });
