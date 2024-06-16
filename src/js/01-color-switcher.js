@@ -13,6 +13,8 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
+elements.stopBtn.disabled = true;
+
 elements.startBtn.addEventListener('click', () => {
   elements.startBtn.disabled = true;
   elements.stopBtn.disabled = false;
